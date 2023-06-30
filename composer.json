@@ -1,0 +1,29 @@
+{
+    "name": "mel/php-project",
+    "description": "Template for my Vanilla PHP projects",
+    "type": "project",
+    "require": {
+        "php": "^8.2"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Mel\\PhpProject\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "melspence",
+            "email": "melvillespence@hamnavoesolutions.com"
+        }
+    ],
+    "require-dev": {
+        "laravel/pint": "^1.10",
+        "pestphp/pest": "^2.8"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}
